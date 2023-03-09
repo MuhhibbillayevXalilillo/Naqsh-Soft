@@ -1,0 +1,190 @@
+@media screen and (max-width:768px) {
+    html {
+        overflow-x: hidden;
+    }
+    .logo-mobile {
+        display: block;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        display: none;
+    }
+    .banner-regular-text-phone {
+        display: none;
+    }
+    ul {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .chance-texts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .chance-regular-text-phone {
+        display: block;
+    }
+    .chance-regular-text {
+        display: none;
+    }   
+    .chance-block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        row-gap: 100px;
+        margin-top: 80px;
+    }
+    .chance-blocks {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .main-bold-text h1 {
+        font-size: 36px;
+    }
+    .address {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+@media screen and (max-width:512px) {
+    html {
+        overflow-x: hidden;
+    }
+    .banner-bold-text h1  {
+        font-size: 24px;
+    }
+    .banner-regular-text {
+        width: auto;
+    }
+    .banner-regular-text p {
+        font-size: 16px;
+        color: #556987;
+    }
+    .banner-btns {
+        display: flex;
+        gap: 26px;
+    }
+    .banner-btn2 {
+        width: 126px;
+        height: 36px;
+        background-color: #22C55E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        border: none;
+    }
+    .banner-btn2 a {
+        color: #fff;
+        font-size: 12px;
+    }
+    .banner-btn3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-btn3 a {
+        font-size: 12px;
+        color: #333F51;
+    }
+    .banner-text-footer {
+        display: none;
+    }
+    .chance-bold-text {
+        width: auto;
+    }
+    .chance-bold-text h1 {
+        text-align: center;
+        font-size: 24px;
+        color: #2A3342;
+    }
+    .chance-regular-text p {
+        text-align: center;
+        font-size: 20px;
+        color: #556987;
+    }
+    .chance-regular-text {
+        width: auto;
+    }
+    .chance-block {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 100px;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .banner-blocks-text {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .chance-blocks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .banner-bold-text {
+        width: auto;
+    }
+    .banner-regular-text {
+        width: auto;
+    }
+    .main-bold-text h1 {
+        font-size: 20px;
+    }
+    .main-regular-text p {
+        font-size: 16px;
+    }
+.price-block {
+    padding: 0 3%;
+    width: 345px;
+    height: 400px;
+    border-left: solid 0.5px #EEF0F3;
+    border-right: solid 0.5px #EEF0F3;
+}
+.price-btn3 {
+    margin-top: 80px;
+    width: 290px;
+    height: 56px;
+    background: #22C55E;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-btn3 a {
+    color: #fff;
+    font-size: 18px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.price-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+section {
+    margin-top: 30px;
+}
